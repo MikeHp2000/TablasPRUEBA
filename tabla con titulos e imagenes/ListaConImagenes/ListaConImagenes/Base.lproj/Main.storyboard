@@ -51,7 +51,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y44-kN-KNf">
-                                                    <rect key="frame" x="20" y="32" width="121" height="36"/>
+                                                    <rect key="frame" x="20" y="32" width="71" height="36"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -62,8 +62,10 @@
                                                 <constraint firstItem="Y44-kN-KNf" firstAttribute="centerY" secondItem="KZ6-tW-CmP" secondAttribute="centerY" id="8ay-sc-nHM"/>
                                                 <constraint firstAttribute="trailing" secondItem="5td-HX-q7C" secondAttribute="trailing" constant="20" id="QyX-Ji-AWG"/>
                                                 <constraint firstItem="5td-HX-q7C" firstAttribute="centerY" secondItem="KZ6-tW-CmP" secondAttribute="centerY" id="S67-eP-sKQ"/>
-                                                <constraint firstItem="5td-HX-q7C" firstAttribute="leading" secondItem="Y44-kN-KNf" secondAttribute="trailing" constant="142" id="eep-Ls-ShN"/>
+                                                <constraint firstItem="5td-HX-q7C" firstAttribute="leading" secondItem="KZ6-tW-CmP" secondAttribute="leading" constant="283" id="ci8-k3-ea0"/>
+                                                <constraint firstItem="5td-HX-q7C" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Y44-kN-KNf" secondAttribute="trailing" symbolic="YES" id="eep-Ls-ShN"/>
                                                 <constraint firstItem="Y44-kN-KNf" firstAttribute="leading" secondItem="KZ6-tW-CmP" secondAttribute="leading" constant="20" id="ufr-Qw-VaK"/>
+                                                <constraint firstItem="5td-HX-q7C" firstAttribute="top" secondItem="KZ6-tW-CmP" secondAttribute="top" constant="5" id="y07-pU-SNX"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
